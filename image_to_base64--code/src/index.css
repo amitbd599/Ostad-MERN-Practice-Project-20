@@ -1,0 +1,26 @@
+.nav {
+  background-color: #000 !important;
+  box-shadow: #2123261a 0 10px 10px -10px;
+}
+
+.nav-logo {
+  padding: 0 !important;
+  width: 90px !important;
+  height: auto !important;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: #343a40;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+textarea {
+  font-family: monospace;
+}

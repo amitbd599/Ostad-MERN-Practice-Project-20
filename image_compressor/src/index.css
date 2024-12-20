@@ -1,0 +1,82 @@
+.nav {
+  background-color: #000 !important;
+  box-shadow: #2123261a 0 10px 10px -10px;
+}
+
+.nav-logo {
+  padding: 0 !important;
+  width: 90px !important;
+  height: auto !important;
+}
+
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.image-compressor {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.upload-section input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.preview-section {
+  margin-top: 20px;
+}
+
+.preview-section img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.compress-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.compress-button:hover {
+  background-color: #0056b3;
+}
+
+.compress-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.download-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #218838;
+}
